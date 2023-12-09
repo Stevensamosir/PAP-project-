@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>INSTITUT TEKNOLOGI DEL</title>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="admin.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+            <style>
+                /* Additional styles for enhanced appearance */
+                body {
+                    background-color: #f8f9fa; /* Set a light background color */
+                }
+        
+                .navbar-logo {
+                    width: 50px; /* Adjust the logo width */
+                    height: auto;
+                    margin-right: 15px; /* Add some margin to separate the logo from text */
+                }
+        
+                .navbar-brand b {
+                    color: #fff; /* Set a white color for the bold text */
+                }
+        
+                .navbar-brand a {
+                    color: #fff; /* Set a white color for the brand text */
+                }
+        
+                .navbar-brand a:hover {
+                    color: #ccc; /* Change color on hover for better feedback */
+                }
+        
+                .search-form {
+                    margin-left: auto; /* Move the search form to the right */
+                }
+        
+                .search-form input {
+                    border-radius: 20px; /* Add some border-radius for a rounded input */
+                }
+        
+                .bell-icon,
+                .envelope-icon,
+                .sign-out-icon {
+                    font-size: 26px; /* Set a consistent font size for icons */
+                }
+        
+                .sidebar {
+                    background-color: #343a40; /* Set a dark background color for the sidebar */
+                    color: #fff; /* Set a white color for text in the sidebar */
+                }
+        
+                .nav-item a {
+                    color: #fff; /* Set a white color for the sidebar links */
+                }
+        
+                .nav-item a:hover {
+                    color: #ccc; /* Change color on hover for better feedback */
+                }
+        
+                .card {
+                    margin-top: 20px; /* Add margin to the card for better spacing */
+                }
+        
+                .pagination {
+                    justify-content: flex-end; /* Align the pagination to the right */
+                }
+            </style>
+        </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+            <div class="container-fluid">
+                <!-- Add Del Institute logo to the left side -->
+                <img src="logo.jpeg" alt="Del Institute Logo" class="navbar-logo">
+    
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">SELAMAT DATANG ADMIN |
+                    <b>INSTITUT TEKNOLOGI DEL</b>
+                </a>
+            </div>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 d-flex align-items-center">
+                <input type="search" class="form-control me-1 ml-3" placeholder="Search..." aria-label="Search">
+                <button class="btn bg-secondary" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <div class="d-flex justify-content-end align-items-center">
+                <i class="fas fa-bell text-white me-4" style="font-size: 26px"></i> <!-- Bell icon -->
+                <i class="fas fa-envelope text-white me-4" style="font-size: 26px"></i> <!-- Message icon -->
+                <i class="fas fa-sign-out-alt text-white me-4" style="font-size: 26px"></i> 
+            </div>
+        </nav>
+        <div class="row no-gutters mt-5">
+            <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+                <ul class="nav flex-column ml-3 mb-5">
+                    <p></p>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="Admin.html">
+                            <i class="fas fa-tachometer-alt "></i>Dashboard</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="tentangdel.html">
+                            <i class="fa-solid fa-address-card"></i>Tentang Del</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pendidikan.html">
+                            <i class="fa-solid fa-school"></i>Pendidikan</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="fasilitas.html">
+                            <i class="fa-solid fa-house-medical"></i>Fasilitas</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pengumuman.html">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </i>Pengumuman</a><hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="prestasi.html">
+                        <i class="fas fa-trophy "></i>Prestasi</a><hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " href="lembaga.html">
+                        <i class="fa fa-building"></i></i>Lembaga</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10 p-5 pt-5">
+            <h3>
+                <a href=""></a><i class="fa-solid fa-address-card"></i>TENTANG DEL</h3><hr>
+                    </aside>
+                    <div class="page-container">
+                        <div class="card">
+                            <div class="card-body">
+                                
+                                    <!-- Announcements will be dynamically added here -->
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <!-- Display the announcement -->
+                                            <h2>TENTANG DEL</h2>
+                                            <p>
+                                                Visi
+
+“Menjadi pusat keunggulan yang berperan dalam pemanfaatan teknologi bagi kemajuan bangsa”
+
+Misi
+
+Menyelenggarakan dan mengembangkan proses pendidikan yang unggul, berkesinambungan, dan bermanfaat bagi masyarakat.
+Mengembangkan, menciptakan dan menyebarkan ilmu pengetahuan dan teknologi.
+Meningkatkan peran institut agar mampu menjadi pembaharu kemampuan, keterampilan pilihan rujukan dan pengembangan rekayasa karya masyarakat khususnya dalam bidang ilmu pengetahuan dan teknologi.
+Meningkatkan peran nyata kepada masyarakat melalui penerapan Tridharma Perguruan Tinggi.
+Target Mutu Lulusan
+Sasaran Mutu yang ditargetkan adalah :
+
+Prosentase lulusan yang mendapatkan pekerjaan dalam tahun pertama minimal 90%
+Prosentase kelulusan yang tepat waktu minimal 100%
+Kemampuan Lulusan dalam bahasa Inggris dihitung dengan TOEFL mencapai nilai minimal 500
+Lulusan mempunyai kemampuan untuk memperoleh sertifikasi profesional yang berlaku secara internasional, misalnya sertifikat Cisco, Microsoft, Oracle, NIIT, dan lain-lain.
+Alamat:
+
+Institut Teknologi Del
+
+Jl. Sisingamangaraja Sitoluama-Laguboti
+
+Toba Samosir 22381
+Sumatera Utara-Indonesia
+
+Telp/Fax. +62-632-331234/+62-632-331116
+
+Sejarah Del
+Yayasan Del
+Jenderal TNI (Purn.) Luhut B. Pandjaitan mendirikan Yayasan Simargala pada tanggal 30 Agustus 2001 di Jakarta. Simargala adalah nama desa kelahiran beliau di Huta Namora, Kecamatan Silaen, Kabupaten Toba Samosir, Sumatera Utara. Pendirian Yayasan Simargala dilandasi oleh keinginan luhur untuk meningkatkan keterampilan dan kesejahteraan masyarakat pedesaan yang kurang tersentuh pembangunan. Tekad yang kuat untuk berpartisipasi pada program pemerintahan dalam bidang pendidikan, sosial, kemanusiaan, seni dan budaya, dan kelestarian lingkungan.
+
+Masih pada tahun 2001, karena pertimbangan nama yang bersifat kedaerahan, Yayasan Simargala diubah menjadi Yayasan Del. Kata Del berasal dari usulan salah satu anggota Yayasan untuk menggunakan kata “Del”, yang berdasarkan bacaan dari salah satu buku mengandung arti “pemimpin yang selalu berada selangkah lebih maju”.
+
+Yayasan Del adalah organisasi nir laba yang didirikan untuk membawa perubahan dan pembaharuan bagi individu dan juga masyarakat.
+
+Visi Yayasan Del
+
+“Menjadi lembaga selangkah lebih depan dalam pengembangan talenta manusia yang memberikan kontribusi berarti pada inovasi teknologi dan keberlanjutan sosial”
+
+(Becoming one-step-ahead Institution in the development of human talent that gives meaningful contribution to technological innovation and social sustainability)
+
+Misi Yayasan Del
+
+“Mengoptimalkan manusia paripurna dan memberdayakan masyarakat dalam mencerdaskan kehidupan bangsa”
+
+(To optimize human completely and to empower community in nurturing the nation’s intellectual life)
+
+Tujuan Yayasan Del adalah untuk menyediakan akses pendidikan berkualitas di daerah terpencil bagi siswa-siswa berprestasi dengan latar belakang masyarakat ekonomi lemah, dengan mendirikan Institut Teknologi Del, SMA Unggul Del, Sekolah Noah, dan Rumah Faye.
+
+Politeknik Informatika Del didirikan pada tahun 2001. Sesuai dengan perkembangan keilmuan dan industri, Politeknik Informatika Del ditingkatkan statusnya menjadi Institut Teknologi Del pada tahun 2013.
+
+Yayasan Del mendirikan SMA Unggul Del di Laguboti pada tahun 2012. Selain itu, Yayasan Del juga mendirikan Sekolah NOAH di Kalisari Cijantung pada tahun 2007 dan Rumah Faye.
+
+Tidak hanya berkiprah di bidang pendidikan, Yayasan Del yang berkantor pusat di Jakarta Selatan ini, juga aktif bekerjasama dengan pemerintah daerah dan lembaga sosial yang ada di Indonesia untuk meningkatkan pelayanan serta memperluas cakrawala bidang pelayanan strategis lainnya.
+                                            </p>
+                                            <img src="luhut_panjaitan.jpg" alt="Pendiri IT DEL">
+                                    
+                                            <!-- CRUD content for announcements -->
+                                            <form id="announcementForm">
+                                                <div class="row mb-3">
+                                                    <div class="col-md-6">
+                                                        <input type="text" id="announcementName" class="form-control input-sm" placeholder="Announcement Name">
+                                                    </div>
+                                                    <div class="col-md-6 text-right">
+                                                        <button type="button" onclick="addAnnouncement()" class="btn btn-default">Add new <i class="fa fa-plus"></i></button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                    
+                                            <!-- Announcements will be dynamically added here -->
+                                            <tbody id="announcementTableBody">
+                                                <script>
+                                                    // Sample data (replace with actual data retrieved from server)
+                                                    var announcements = [
+                                                        { id: 1, name: 'Announcement 1' },
+                                                        { id: 2, name: 'Announcement 2' },
+                                                        // Add more announcements as needed
+                                                    ];
+                                    
+                                                    function displayAnnouncements() {
+                                                        var tableBody = document.getElementById('announcementTableBody');
+                                                        tableBody.innerHTML = '';
+                                    
+                                                        for (var i = 0; i < announcements.length; i++) {
+                                                            var row = tableBody.insertRow(i);
+                                                            var cell1 = row.insertCell(0);
+                                                            var cell2 = row.insertCell(1);
+                                                            var cell3 = row.insertCell(2);
+                                    
+                                                            cell1.innerHTML = i + 1;
+                                                            cell2.innerHTML = announcements[i].name;
+                                                            cell3.innerHTML = '<button onclick="editAnnouncement(' + announcements[i].id + ')">Edit</button> | <button onclick="deleteAnnouncement(' + announcements[i].id + ')">Delete</button>';
+                                                        }
+                                                    }
+                                    
+                                                    // Display the initial announcements
+                                                    displayAnnouncements();
+                                                </script>
+                                            </tbody>
+            
+                                </table>
+                                <div class="row table-footer">
+                                    <div class="col-md-6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </body>
+</html>

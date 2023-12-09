@@ -1,0 +1,252 @@
+.nav-link:hover {
+    background-color: grey;
+}
+
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: 0.4;
+    font-size: 90px;
+}
+
+/* styles.css */
+
+/* Add your custom styles here */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Customize as needed */
+
+/* admin.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-logo {
+  width: 60px;
+  height: 60px;
+  /* Add any other styling properties as needed */
+}
+.logo {
+  font-size: 1.5rem;
+}
+
+.logo .img {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  margin-right: 5px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+}
+
+.topbar .left,
+.topbar .right {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-title {
+  margin-left: 10px;
+}
+
+.fa-bars {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.fa-bell,
+.fa-angle-down {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.topbar-btn {
+  position: relative;
+}
+
+.displayname {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.dropdown-username,
+.dropdown-footer {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  background-color: #f5f5f5;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin-bottom: 10px;
+}
+
+.nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav i {
+  margin-right: 10px;
+}
+
+.span {
+  margin-left: 10px;
+}
+
+.page-container {
+  padding: 20px;
+}
+
+/* Add more styles as needed */
+/* Add your custom styles for the News section */
+.news-list {
+    margin-top: 20px;
+}
+
+.news-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.news-item h3 {
+    margin-bottom: 5px;
+}
+
+.news-item p {
+    margin-bottom: 20px;
+}
+
+/* Optional: Style the buttons for better visibility */
+button {
+    background-color: #007bff; /* Blue color, you can change it */
+    color: #fff; /* White text */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px; /* Adjust the border-radius as needed */
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(211, 100%, 35%); /* Darker blue on hover */
+}
+
+/* Gaya umum untuk formulir */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Gaya untuk label */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Gaya untuk input teks dan textarea */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+/* Gaya untuk tombol submit */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007bff;
+}
+
+/* Add your custom styles here */
+
+body {
+  background-color: #f8f9fa;
+}
+
+/* Customize your styles for the announcement content */
+.announcement-content {
+  margin-bottom: 20px;
+}
+
+.announcement-list {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-list h3 {
+  margin-bottom: 20px;
+}
+
+.announcement-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+/* Add more styles as needed */

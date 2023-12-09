@@ -1,0 +1,250 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>INSTITUT TEKNOLOGI DEL - Pengumuman</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="admin.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <style>
+            /* Additional styles for enhanced appearance */
+            body {
+                background-color: #f8f9fa; /* Set a light background color */
+            }
+
+            .navbar-logo {
+                width: 50px; /* Adjust the logo width */
+                height: auto;
+                margin-right: 15px; /* Add some margin to separate the logo from text */
+            }
+
+            .navbar-brand b {
+                color: #fff; /* Set a white color for the bold text */
+            }
+
+            .navbar-brand a {
+                color: #fff; /* Set a white color for the brand text */
+            }
+
+            .navbar-brand a:hover {
+                color: #ccc; /* Change color on hover for better feedback */
+            }
+
+            .search-form {
+                margin-left: auto; /* Move the search form to the right */
+            }
+
+            .search-form input {
+                border-radius: 20px; /* Add some border-radius for a rounded input */
+            }
+
+            .bell-icon,
+            .envelope-icon,
+            .sign-out-icon {
+                font-size: 26px; /* Set a consistent font size for icons */
+            }
+
+            .sidebar {
+                background-color: #343a40; /* Set a dark background color for the sidebar */
+                color: #fff; /* Set a white color for text in the sidebar */
+            }
+
+            .nav-item a {
+                color: #fff; /* Set a white color for the sidebar links */
+            }
+
+            .nav-item a:hover {
+                color: #ccc; /* Change color on hover for better feedback */
+            }
+
+            .card {
+                margin-top: 20px; /* Add margin to the card for better spacing */
+            }
+
+            .pagination {
+                justify-content: flex-end; /* Align the pagination to the right */
+            }
+
+            /* Styles for the announcement content */
+            .announcement-content {
+                margin-bottom: 20px;
+            }
+
+            .announcement-list {
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+            }
+
+            .announcement-list h2 {
+                margin-bottom: 20px;
+            }
+
+            .announcement-item {
+                margin-bottom: 15px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+            <div class="container-fluid">
+                <!-- Add Del Institute logo to the left side -->
+                <img src="logo.jpeg" alt="Del Institute Logo" class="navbar-logo">
+
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">SELAMAT DATANG ADMIN |
+                        <b>INSTITUT TEKNOLOGI DEL</b>
+                    </a>
+                </div>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 d-flex align-items-center">
+                    <input type="search" class="form-control me-1 ml-3" placeholder="Search..." aria-label="Search">
+                    <button class="btn bg-secondary" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+                <div class="d-flex justify-content-end align-items-center">
+                    <i class="fas fa-bell text-white me-4" style="font-size: 26px"></i> <!-- Bell icon -->
+                    <i class="fas fa-envelope text-white me-4" style="font-size: 26px"></i> <!-- Message icon -->
+                    <i class="fas fa-sign-out-alt text-white me-4" style="font-size: 26px"></i>
+                </div>
+        </nav>
+        <div class="row no-gutters mt-5">
+            <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+                <ul class="nav flex-column ml-3 mb-5">
+                    <p></p>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="Admin.html">
+                            <i class="fas fa-tachometer-alt "></i>Dashboard</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="tentangdel.html">
+                            <i class="fa-solid fa-address-card"></i>Tentang Del</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pendidikan.html">
+                            <i class="fa-solid fa-school"></i>Pendidikan</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="fasilitas.html">
+                            <i class="fa-solid fa-house-medical"></i>Fasilitas</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pengumuman.html">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </i>Pengumuman</a><hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="prestasi.html">
+                        <i class="fas fa-trophy "></i>Prestasi</a><hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " href="lembaga.html">
+                        <i class="fa fa-building"></i></i>Lembaga</a>
+                </li>
+            </ul>
+        </div>
+           <div class="col-md-10 p-5 pt-5">
+            <!-- Announcement Content -->
+            <div class="announcement-content">
+                <h3>
+                    <i class="fa-solid fa-bullhorn"></i> PENGUMUMAN
+                </h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-8">
+                        <!-- Display the announcement content -->
+                        <div class="announcement-list" id="announcementList">
+                            <!-- Dynamic content will be added here -->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- CRUD content for announcements -->
+                        <form id="announcementForm" class="mb-3">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <input type="text" id="announcementName" class="form-control"
+                                        placeholder="Announcement Name">
+                                </div>
+                                <div class="col-md-4 text-right">
+                                    <button type="button" onclick="addAnnouncement()"
+                                        class="btn btn-primary">Add new <i class="fa fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="row table-footer">
+                <!-- Pagination Content -->
+                <!-- ... (Remains the same) ... -->
+            </div>
+        </div>
+    </div>
+    <script>
+    // Sample data (replace with actual data retrieved from server)
+    var announcements = [
+        { id: 1, name: 'Wisuda 398 Lulusan Institut Teknologi Del' },
+        { id: 2, name: 'Pengukuhan 483 Mahasiswa IT Del Angkatan XXIII dan Dies Natalis ke XXII' },
+        // Add more announcements as needed
+    ];
+    
+    function displayAnnouncements() {
+        var list = document.getElementById('announcementList');
+        list.innerHTML = '';
+    
+        for (var i = 0; i < announcements.length; i++) {
+            var listItem = document.createElement('div');
+            listItem.className = 'announcement-item';
+            listItem.innerHTML = '<h4>' + announcements[i].name + '</h4> | <button onclick="editAnnouncement(' + announcements[i].id + ')" class="btn btn-warning">Edit</button> | <button onclick="deleteAnnouncement(' + announcements[i].id + ')" class="btn btn-danger">Delete</button>';
+            list.appendChild(listItem);
+        }
+    }
+    
+    // Display the initial announcements
+    displayAnnouncements();
+    
+    // Function to add a new announcement
+    function addAnnouncement() {
+        var newName = document.getElementById('announcementName').value;
+        if (newName.trim() !== '') {
+            var newAnnouncement = {
+                id: announcements.length + 1,
+                name: newName
+            };
+            announcements.push(newAnnouncement);
+            displayAnnouncements();
+            document.getElementById('announcementName').value = '';
+        }
+    }
+    
+    // Function to edit an announcement
+    function editAnnouncement(id) {
+        var newName = prompt('Edit Announcement:', announcements.find(a => a.id === id).name);
+        if (newName !== null) {
+            var index = announcements.findIndex(a => a.id === id);
+            if (index !== -1) {
+                announcements[index].name = newName;
+                displayAnnouncements();
+            }
+        }
+    }
+    
+    // Function to delete an announcement
+    function deleteAnnouncement(id) {
+        var confirmation = confirm('Are you sure you want to delete this announcement?');
+        if (confirmation) {
+            announcements = announcements.filter(a => a.id !== id);
+            displayAnnouncements();
+        }
+    }    
+</script>
+        </body>
+
+    </html>
+

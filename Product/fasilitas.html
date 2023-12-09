@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>INSTITUT TEKNOLOGI DEL</title>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="admin.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+            <style>
+                /* Additional styles for enhanced appearance */
+                body {
+                    background-color: #f8f9fa; /* Set a light background color */
+                }
+        
+                .navbar-logo {
+                    width: 50px; /* Adjust the logo width */
+                    height: auto;
+                    margin-right: 15px; /* Add some margin to separate the logo from text */
+                }
+        
+                .navbar-brand b {
+                    color: #fff; /* Set a white color for the bold text */
+                }
+        
+                .navbar-brand a {
+                    color: #fff; /* Set a white color for the brand text */
+                }
+        
+                .navbar-brand a:hover {
+                    color: #ccc; /* Change color on hover for better feedback */
+                }
+        
+                .search-form {
+                    margin-left: auto; /* Move the search form to the right */
+                }
+        
+                .search-form input {
+                    border-radius: 20px; /* Add some border-radius for a rounded input */
+                }
+        
+                .bell-icon,
+                .envelope-icon,
+                .sign-out-icon {
+                    font-size: 26px; /* Set a consistent font size for icons */
+                }
+        
+                .sidebar {
+                    background-color: #343a40; /* Set a dark background color for the sidebar */
+                    color: #fff; /* Set a white color for text in the sidebar */
+                }
+        
+                .nav-item a {
+                    color: #fff; /* Set a white color for the sidebar links */
+                }
+        
+                .nav-item a:hover {
+                    color: #ccc; /* Change color on hover for better feedback */
+                }
+        
+                .card {
+                    margin-top: 20px; /* Add margin to the card for better spacing */
+                }
+        
+                .pagination {
+                    justify-content: flex-end; /* Align the pagination to the right */
+                }
+            </style>
+        </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+            <div class="container-fluid">
+                <!-- Add Del Institute logo to the left side -->
+                <img src="logo.jpeg" alt="Del Institute Logo" class="navbar-logo">
+    
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">SELAMAT DATANG ADMIN |
+                    <b>INSTITUT TEKNOLOGI DEL</b>
+                </a>
+            </div>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 d-flex align-items-center">
+                <input type="search" class="form-control me-1 ml-3" placeholder="Search..." aria-label="Search">
+                <button class="btn bg-secondary" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <div class="d-flex justify-content-end align-items-center">
+                <i class="fas fa-bell text-white me-4" style="font-size: 26px"></i> <!-- Bell icon -->
+                <i class="fas fa-envelope text-white me-4" style="font-size: 26px"></i> <!-- Message icon -->
+                <i class="fas fa-sign-out-alt text-white me-4" style="font-size: 26px"></i> 
+            </div>
+        </nav>
+        <div class="row no-gutters mt-5">
+            <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+                <ul class="nav flex-column ml-3 mb-5">
+                    <p></p>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="Admin.html">
+                            <i class="fas fa-tachometer-alt "></i>Dashboard</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="tentangdel.html">
+                            <i class="fa-solid fa-address-card"></i>Tentang Del</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pendidikan.html">
+                            <i class="fa-solid fa-school"></i>Pendidikan</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="fasilitas.html">
+                            <i class="fa-solid fa-house-medical"></i>Fasilitas</a><hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="pengumuman.html">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </i>Pengumuman</a><hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="prestasi.html">
+                        <i class="fas fa-trophy "></i>Prestasi</a><hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " href="lembaga.html">
+                        <i class="fa fa-building"></i></i>Lembaga</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10 p-5 pt-5">
+            <h3>
+                <a href="Admin.html"></a>
+                <i class="fa-solid fa-house-medical"></i>FASILITAS</h3><hr>
+                    </aside>
+                    <div class="page-container">
+                        <!-- Content for CRUD operations -->
+                        <div class="row">
+                            <!-- Add new facility form -->
+                            <div class="col-md-6">
+                                <div class="card mt-4">
+                                    <div class="card-body">
+                                        <h3>Menambahhkan Fasilitas</h3>
+                                        <!-- Your form code for adding a new facility goes here -->
+                                        <form id="addFacilityForm">
+                                            <div class="form-group">
+                                                <label for="facilityName">Fasilitas Baru</label>
+                                                <input type="text" class="form-control" id="facilityName" required>
+                                            </div>
+                                            
+                                            <button type="button" class="btn btn-primary" onclick="addFacility()">Tambhahkan Fasilitas</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <!-- Display facilities in a table -->
+                            <div class="col-md-12 mt-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h3>Facilities List</h3>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>Nama</th>
+                                                        <th>Gambar</th>
+                                                        <th>Bukti</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="facilitiesTableBody">
+                                                    <!-- Placeholder data, replace this with dynamic content -->
+                                                    <!-- End of placeholder data -->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <script>
+                        // Sample data for facilities (replace this with dynamic data from a server)
+                        var facilitiesData = [
+                            { id: 1, name: 'Asrama' },
+                            { id: 2, name: 'Laboratorium' },
+                            { id: 3, name: 'Perpustakaan' },
+                            { id: 4, name: 'Kantin' }
+                        ];
+                
+                        // Function to render facilities table
+                        function renderFacilitiesTable() {
+                            var tableBody = $('#facilitiesTableBody');
+                            tableBody.empty();
+                
+                            facilitiesData.forEach(function (facility, index) {
+                                var row = '<tr>' +
+                                    '<td>' + (index + 1) + '</td>' +
+                                    '<td>' + facility.name + '</td>' +
+                                    '<td>' +
+                                    '<button class="btn btn-danger" onclick="deleteFacility(' + facility.id + ')">Delete</button>' +
+                                    '</td>' +
+                                    '</tr>';
+                                tableBody.append(row);
+                            });
+                        }
+                
+                        // Function to add a new facility
+                        function addFacility() {
+                            var facilityName = $('#facilityName').val();
+                
+                            // Generate a unique ID for the new facility
+                            var newFacilityId = facilitiesData.length + 1;
+                
+                            // Create a new facility object
+                            var newFacility = {
+                                id: newFacilityId,
+                                name: facilityName
+                            };
+                
+                            // Add the new facility to the data array
+                            facilitiesData.push(newFacility);
+                
+                            // Render the updated facilities table
+                            renderFacilitiesTable();
+                
+                            // Clear the form field
+                            $('#facilityName').val('');
+                        }
+                
+                        // Function to delete a facility
+                        function deleteFacility(facilityId) {
+                            // Find the index of the facility with the given ID
+                            var index = facilitiesData.findIndex(function (facility) {
+                                return facility.id === facilityId;
+                            });
+                
+                            // Remove the facility from the data array
+                            facilitiesData.splice(index, 1);
+                
+                            // Render the updated facilities table
+                            renderFacilitiesTable();
+                        }
+                
+                        // Initial rendering of facilities table
+                        renderFacilitiesTable();
+            
+                        // Function to render facilities table
+            function renderFacilitiesTable() {
+                var tableBody = $('#facilitiesTableBody');
+                tableBody.empty();
+            
+                facilitiesData.forEach(function (facility, index) {
+                    var row = '<tr>' +
+                        '<td>' + (index + 1) + '</td>' +
+                        '<td>' + facility.name + '</td>' +
+                        '<td><img src="' + getFacilityImage(facility.id) + '" alt="' + facility.name + ' Image" style="max-height: 50px;"></td>' +
+                        '<td>' +
+                        '<button class="btn btn-danger" onclick="deleteFacility(' + facility.id + ')">Delete</button>' +
+                        '</td>' +
+                        '</tr>';
+                    tableBody.append(row);
+                });
+            }
+            
+            // Function to get the image URL for a facility (replace this with your image URLs)
+            function getFacilityImage(facilityId) {
+                // Add logic to retrieve the image URL based on the facilityId
+                // For example, you can have an object with facilityId-imageURL pairs
+                var imageMap = {
+                    1: 'image/pniel.jpg',
+                    2: 'image/bp.jpg',
+                    3: 'image/perpus.jpg',
+                    4: 'image/kantin.jpg'
+                };
+            
+                return imageMap[facilityId] || 'path/to/default_image.jpg'; // Use a default image if no specific image is found
+            }
+            
+                    </script>
+    </body>
+</html>
